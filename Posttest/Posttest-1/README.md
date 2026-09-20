@@ -52,8 +52,3 @@ Bagian akhir program (main program) berisi beberapa pengujian, di antaranya:
 - Setter `harga` diuji dengan dua kondisi: mengisi angka valid (90000) yang seharusnya diterima, dan mengisi angka minus (-5000) yang seharusnya ditolak. Dari pengujian ini terbukti validasi yang dibuat benar-benar berjalan.
 - Dua objek transaksi dibuat, satu untuk pembeli member dan satu untuk pembeli umum, lalu method `tambah()`, `bayar()`, dan `struk()` diuji di masing-masing objek untuk memastikan perhitungan diskon berjalan sesuai status membernya.
 - Class method `atur_diskon()` turut diuji dengan mengubah diskon member dari 10% menjadi 20%, kemudian struk dicetak ulang untuk membuktikan perubahan itu berlaku ke seluruh objek Transaksi.
-
-## Cara Menjalankan
-
-```bash
-python nama_file.py
