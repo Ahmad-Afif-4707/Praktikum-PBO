@@ -54,7 +54,7 @@ Bagian akhir program (main program) berisi beberapa pengujian, di antaranya:
 - Class method `atur_diskon()` turut diuji dengan mengubah diskon member dari 10% menjadi 20%, kemudian struk dicetak ulang untuk membuktikan perubahan itu berlaku ke seluruh objek Transaksi.
 
 
-## Posttest 2 — Relasi UML dan Inheritance
+## Posttest 2 - Relasi UML dan Inheritance
 
 Posttest ketiga ini melanjutkan tema yang sama, sistem pemesanan tiket bioskop CGV, dengan fokus menerapkan relasi UML (asosiasi, agregasi, komposisi) dan konsep inheritance sesuai modul yang sudah diajarkan.
 
@@ -79,7 +79,7 @@ Method overriding diterapkan pada `cetak()` di kedua subclass (menambahkan info 
 Untuk tingkat akses, atribut `_harga` di superclass Tiket dibuat protected, supaya subclass (lewat method yang di-override seperti `total_harga()`) masih bisa mengakses dan memanfaatkannya. Sementara itu, atribut `__kode` (objek KodeBooking) dibuat private, karena memang hanya dipakai di dalam superclass Tiket sendiri, tidak perlu dan tidak boleh diakses langsung dari subclass maupun luar class.
 
 
-## Posttest 3 — Abstraksi dan Polimorfisme
+## Posttest 3 - Abstraksi dan Polimorfisme
 
 Posttest ini masih melanjutkan tema yang sama, sistem pemesanan tiket bioskop CGV, dengan fokus menerapkan abstraksi lewat abstract class, polimorfisme, serta relasi UML yang digambar dalam bentuk Class Diagram.
 
